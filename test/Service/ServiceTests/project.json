@@ -1,0 +1,25 @@
+﻿{
+  "version": "1.0.0-*",
+  "description": "Service level tests for the xUnit2NUnit conversion service",
+  "authors": [ "Markus Thurner" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+
+  "dependencies": {
+    "System.Net.Http": "4.0.0",
+    "xunit": "2.1.0-rc1-build3168",
+    "xunit.runner.dnx": "2.1.0-beta5-build169",
+    "Newtonsoft.Json": "7.0.1"
+  },
+
+  "commands": {
+    "test": "xunit.runner.dnx"
+  },
+  
+  "resource": ["Resources/*.xml"],
+
+  "frameworks": {
+    "dnx451": { }
+  }
+}

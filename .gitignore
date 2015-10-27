@@ -1,0 +1,8 @@
+.suo
+src/.vs
+src/packages
+bin
+obj
+*.xproj.user
+*.csproj.user
+tmp

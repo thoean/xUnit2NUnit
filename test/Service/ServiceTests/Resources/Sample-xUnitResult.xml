@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<assemblies>
+  <assembly name="MyService.UnitTests.dll" environment="64-bit .NET (unknown version) [collection-per-class, parallel (4 threads)]" test-framework="xUnit.net 2.1.0.3168" run-date="2015-10-16" run-time="10:11:01" total="4" passed="4" failed="0" skipped="0" time="0.149" errors="0">
+    <errors />
+    <collection total="4" passed="4" failed="0" skipped="0" name="Test collection for MyService.UnitTests.data.MydataRepositoryTests" time="0.023">
+      <test name="MyService.UnitTests.Data.MyDataRepositoryTests.Repository_contains_all_expected_data" type="MyService.UnitTests.data.MydataRepositoryTests" method="Repository_contains_all_expected_data" time="0.0199485" result="Pass" />
+      <test name="MyService.UnitTests.Data.MyDataRepositoryTests.Repository_returns_correct_data_based_on_identifier(identifier: Default, labelDescription: &quot;Default&quot;)" type="MyService.UnitTests.data.MydataRepositoryTests" method="Repository_returns_correct_data_based_on_identifier" time="0.0010876" result="Pass" />
+      <test name="MyService.UnitTests.Data.MyDataRepositoryTests.Repository_returns_correct_data_based_on_identifier(identifier: Candara, labelDescription: &quot;Candara&quot;)" type="MyService.UnitTests.data.MydataRepositoryTests" method="Repository_returns_correct_data_based_on_identifier" time="0.0000325" result="Pass" />
+      <test name="MyService.UnitTests.Data.MyDataRepositoryTests.Repository_throws_exception_when_requesting_invalid_data" type="MyService.UnitTests.data.MydataRepositoryTests" method="Repository_throws_exception_when_requesting_invalid_data" time="0.0016191" result="Pass" />
+    </collection>
+  </assembly>
+</assemblies>
