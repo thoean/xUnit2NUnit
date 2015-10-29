@@ -1,4 +1,4 @@
-$ErrorActionPreference = "Stop"
+$ErrorActionPreference = "Continue"
 
 $dnvm = Join-Path $env:USERPROFILE -ChildPath "\.dnx\bin\"
 $dnx = Join-Path $env:USERPROFILE -ChildPath "\.dnx\runtimes\dnx-clr-win-x64.1.0.0-beta8\bin\"
@@ -38,6 +38,8 @@ function Run-ServiceTests {
 }
 
 function Invoke-Build {
+    dnu restore .\src\Service\project.json
+    dnu restore .\test\Service\ServiceTests\project.json
     dnu publish .\src\Service\project.json --out .\tmp\service --no-source --runtime dnx-clr-win-x64.1.0.0-beta8 --configuration Release --quiet
 }
 
